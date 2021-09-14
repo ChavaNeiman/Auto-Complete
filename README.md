@@ -1,5 +1,5 @@
 # Auto-Complete
-google-project
+## google-project
 
 In this project we implemented a feature of Google's search engines - AutoComplete.
 
