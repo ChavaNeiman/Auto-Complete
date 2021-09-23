@@ -15,5 +15,5 @@ If the user inserts `#`, then we start a new word to search.
 
 The results will be from sentences within given input text files.
 
-You can upload your own files. in `main.py`, line `8`, by changing it to your path of folder wanted.
+You can upload your own files in `main.py`, line `8`, by changing it to your path of folder wanted.
 
