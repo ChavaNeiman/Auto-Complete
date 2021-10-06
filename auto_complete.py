@@ -56,23 +56,6 @@ def find_sequences(root, query):
     return found_sources[len_ - 1]
 
 
-#
-# def get_reg_score(query):
-#     return len(query) * 2
-#
-#
-# def get_repl_score(query, index):
-#     minus_indexes = {0: 5, 1: 4, 2: 3, 3: 2}
-#     minus_score = 1 if index > 4 else minus_indexes[index]
-#     return 2 * len(query) - minus_score
-#
-#
-# def get_add_score(query, index):
-#     minus_indexes = {0: 10, 1: 8, 2: 6, 3: 4}
-#     minus_score = 2 if index > 3 else minus_indexes[index]
-#     return 2 * len(query) - minus_score
-
-
 def manipulate_query(root, query):
     found = 0
     sequences = find_sequences(root, query)
